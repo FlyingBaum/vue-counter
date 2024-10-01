@@ -7,8 +7,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 
-const SERVER_URL = "http://localhost:3000";
-const WEBSOCKET_URL = "ws://localhost:3000";
+const SERVER_URL = "http://localhost:3001";
+const WEBSOCKET_URL = "ws://localhost:3001";
 
 const count = ref<number>(0);
 let socket: WebSocket | null = null;
