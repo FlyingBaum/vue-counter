@@ -1,0 +1,26 @@
+{
+	"engines": {
+		"node": ">=20.6.0"
+	},
+	"name": "backend",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"build": "tsc",
+		"start": "ts-node src/index.ts",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "Krist Baliev",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^22.7.4",
+		"@types/ws": "^8.5.12",
+		"node-mocks-http": "^1.16.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.2"
+	},
+	"dependencies": {
+		"ws": "^8.18.0"
+	}
+}
