@@ -16,7 +16,13 @@
 	"devDependencies": {
 		"@types/node": "^22.7.4",
 		"@types/ws": "^8.5.12",
+		"@typescript-eslint/eslint-plugin": "^8.13.0",
+		"@typescript-eslint/parser": "^8.13.0",
+		"eslint": "^9.14.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
 		"node-mocks-http": "^1.16.0",
+		"prettier": "^3.3.3",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.6.2"
 	},
